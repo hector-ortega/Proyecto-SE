@@ -1,0 +1,153 @@
+{
+    "simbolos": [
+        {
+            "Completado": "si",
+            "nombre": "Linea continua gruesa",
+            "descripcion": "Se utiliza para representar contornos visibles de piezas en dibujo tecnico.",
+            "imagen": "linea_continua_gruesa.png",
+            "norma": "ISO 128",
+            "categoria": "Lineas"
+        },
+        {
+            "Completado": "si",
+            "nombre": "Linea discontinua fina",
+            "descripcion": "Tiene distintosd usos principales como lo puede ser: \n 1.- Representacion de aristas ocultas:\n - Intdican bordes o limites de objetos que est\u00e1n bloqueados por otros elementos y no son visibles desde el punto de vista actual.\n2.- Cortes parciales o interrumpidos: \n-Ayudan a mostrar la parte interna de una pieza sin necesidad de dibujar un corte completo.\n3.- Elementos internos no visibles\nRepresentan orificios, cavidades, o partes internas que no se observan desde la vista externa.",
+            "imagen": "linea_discontinua_fina.png",
+            "norma": "ISO 128",
+            "categoria": "Lineas"
+        },
+        {
+            "Completado": "si",
+            "nombre": "Linea de trazo y punto",
+            "descripcion": "Tiene distintos usos principales como lo puede se:\n1.- Ejes de simetr\u00eda\n- Indica el eje central de elementos cilindricos, conicos o esfericos, como aguijeros de pernos, o engranajes\n2.- Circulos inscritos o circunscritos:\n - Ayuda a se\u00f1alar que un circulo est\u00e1 centrado respecto a un eje o forma parte de un dise\u00f1o sim\u00e9trico.",
+            "imagen": "linea_trazo_punto.png",
+            "norma": "ISO 128",
+            "categoria": "Lineas"
+        },
+        {
+            "Completado": "si",
+            "nombre": "Cota",
+            "descripcion": "Comunicar medidas:\n - Especifican las dimensiones exactas (longitudes, diametros, radios, \u00e1ngulos, etc.) de los elementos de una pieza.\n - Garantizan que el objeto pueda ser construido con presici\u00f3n seg\u00fan el dise\u00f1o.\n",
+            "imagen": "cota.png",
+            "norma": "ISO 129-1",
+            "categoria": "Dimensiones"
+        },
+        {
+            "Completado": "si",
+            "nombre": "Rugosidad",
+            "descripcion": "Indica la calidad superficial de una pieza.\nEstos s\u00edmbolos se colocan sobre la l\u00ednea de referencia de la vista correspondiente, y se componen de cinco elementos: el s\u00edmbolo b\u00e1sico, el valor de la rugosidad, el m\u00e9todo de producci\u00f3n, la direcci\u00f3n de las estr\u00edas y el requisito complementario.",
+            "imagen": "rugosidad.png",
+            "norma": "ISO 1302",
+            "categoria": "Superficies"
+        },
+        {
+            "nombre": "S\u00edmbolo de soldadura",
+            "descripcion": "Es una notación estandarizada que se utiliza para comunicar información específica sobre el tipo, tamaño, ubicación y características de una soldadura requerida en una pieza o ensamblaje.\n1.-Comunicar especificaciones de soldadura:\n -Detalla el tipo de soldadura necesaria (por ejemplo, filete, a tope, en ángulo).\n -Indica el tamaño, longitud, espesor o cualquier otra característica crítica para realizar la soldadura.\n2,. Asegurar calidad y uniformidad\n -Establece requisitos claros que el soldador debe seguir, garantizando que el trabajo cumpla con los estándares de diseño y seguridad.",
+            "imagen": "soldadura.png",
+            "norma": "ISO 2553",
+            "categoria": "Uniones"
+        },
+        {
+            "Completado": "si",
+            "nombre": "Vista en seccion",
+            "descripcion": "Tiene distintos usos principales como lo puede ser\n1.- Mostrar detalles internos:\n - Permite visualizar cavidades, ranuras, canales, o cualquier caracter\u00edstica interna que no ser\u00eda evidente en una vista convencional.\n2.- Facilitar la interpretaci\u00f3n:\n - Ayuda a eliminar ambig\u00fcedades sobre c\u00f3mo est\u00e1n construidos los elementos internos de una pieza, especialmente en dise\u00f1os complejos.\n3.- Optimizar el dise\u00f1o de fabricaci\u00f3n:\n -Permite evaluar la geometr\u00eda interna para detectar errores o inconsistencias antes de la fabricaci\u00f3n. ",
+            "imagen": "vista_en_seccion.png",
+            "norma": "ISO 128",
+            "categoria": "Vistas"
+        },
+        {
+            "nombre": "S\u00edmbolo de tolerancia geom\u00e9trica",
+            "descripcion": "se utiliza para especificar requisitos precisos sobre la forma, orientación, posición o tamaño de las características de una pieza, más allá de lo que las cotas tradicionales pueden indicar.\n1.-Garantizar el ensamblaje correcto:\n -Especifica cómo deben ajustarse las piezas en un ensamblaje, asegurando compatibilidad y funcionalidad.\n2.- Definir límites geométricos:\n -Controla aspectos como la forma (planicidad, redondez), orientación (paralelismo, perpendicularidad), ubicación (posición, concentricidad) y oscilación de las piezas.",
+            "imagen": "tolerancia_geometrica.png",
+            "norma": "ISO 1101",
+            "categoria": "Tolerancias"
+        },
+        {
+            "Completado": "si",
+            "nombre": "S\u00edmbolo de di\u00e1metro",
+            "descripcion": "es un símbolo estandarizado que se utiliza para identificar y especificar medidas relacionadas con el diámetro de elementos circulares o cilíndricos en una pieza, como agujeros, barras, tubos, ejes, entre otros. Su propósito principal es asegurar que las dimensiones sean claras y precisas para la fabricación y el ensamblaje.",
+            "imagen": "diametro.png",
+            "norma": "ISO 129-1",
+            "categoria": "Dimensiones"
+        },
+        {
+            "nombre": "Linea de centro",
+            "descripcion": "Se utiliza para representar e identificar los ejes de simetría o los centros de elementos geométricos circulares, como agujeros, cilindros, esferas o arcos. Es una línea simbólica que proporciona información importante sobre la estructura y geometría de una pieza o ensamblaje.\n1.- Indicar ejes de simetría:\n -Marca la posición del eje central en piezas simétricas (como ejes, engranajes, y agujeros), facilitando su identificación.\n2.-Definir puntos de referencia:\n -Ayuda a establecer puntos clave para acotar, alinear, o posicionar otras características geométricas.",
+            "imagen": "linea_de_centro.png",
+            "norma": "ISO 128",
+            "categoria": "Lineas"
+        }
+    ],
+    "preguntas": [
+        {
+            "pregunta": "\u00bfNecesitas representar contornos visibles normales a la vista de la(s) pieza(s)?",
+            "categoria": "Lineas",
+            "respuesta_si": [
+                "Linea continua gruesa"
+            ]
+        },
+        {
+            "pregunta": "\u00bfNecesitas representar aristas o elementos internos no visibles en la vista de la piezaz?",
+            "categoria": "Lineas",
+            "respuesta_si": [
+                "Linea discontinua fina"
+            ]
+        },
+        {
+            "pregunta": "\u00bfNecesitas indicar una medida de la pieza a dibujar?",
+            "categoria": "dimensiones",
+            "respuesta_si": [
+                "Cota"
+            ]
+        },
+        {
+            "pregunta": "\u00bfnecesitas representar uniones por roldadura?",
+            "categoria": "Uniones",
+            "respuesta_si": [
+                "S\u00edmbolo de soldadura"
+            ]
+        },
+        {
+            "pregunta": "\u00bfNecesitas indicar un eje central de piezas cilindricas?",
+            "categoria": "Lineas",
+            "respuesta_si": [
+                "Linea de trazo y punto"
+            ]
+        },
+        {
+            "pregunta": "\u00bfNecesitas representas dimensiones circulares?",
+            "categoria": "dimensiones",
+            "respuesta_si": [
+                "S\u00edmbolo de di\u00e1metro"
+            ]
+        },
+        {
+            "pregunta": "\u00bfDebes de indicar tolerancias geom\u00e9tricas?",
+            "categoria": "Tolerancias",
+            "respuesta_si": [
+                "S\u00edmbolo de tolerancia geom\u00e9trica"
+            ]
+        },
+        {
+            "pregunta": "\u00bfTienes que marcar el centro de piezas sim\u00e9tricas o agujeros.?",
+            "categoria": "Lineas",
+            "respuesta_si": [
+                "Linea de centro"
+            ]
+        },
+        {
+            "pregunta": "\u00bfEs un s\u00edmbolo de corte o secci\u00f3n interna?",
+            "categoria": "Vistas",
+            "respuesta_si": [
+                "Vista en seccion"
+            ]
+        },
+        {
+            "pregunta": "\u00bfEste s\u00edmbolo est\u00e1 relacionado con la calidad superficial?",
+            "categoria": "Superficies",
+            "respuesta_si": [
+                "Rugosidad"
+            ]
+        }
+    ]
+}
